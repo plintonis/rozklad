@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад уроків</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .table-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .day-table {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            width: 200px;
+            background-color: #fff;
+        }
+        .day-table th, .day-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .day-table th {
+            background-color: #f2f2f2;
+        }
+        .schedule-table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 60%;
+        }
+        .schedule-table th, .schedule-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .schedule-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Розклад уроків</h1>
+    <div class="table-container">
+        <table class="day-table">
+            <thead>
+                <tr><th>Пн</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Англійська мова (гр1)</td></tr>
+                <tr><td>Інформатика (гр2)</td></tr>
+                <tr><td>Українська література</td></tr>
+                <tr><td>Фізика</td></tr>
+                <tr><td>Біологія</td></tr>
+                <tr><td>Англійська мова (гр1)</td></tr>
+                <tr><td>Англійська мова (гр2)</td></tr>
+                <tr><td>Хімія</td></tr>
+            </tbody>
+        </table>
+        <table class="day-table">
+            <thead>
+                <tr><th>Вт</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Українська мова</td></tr>
+                <tr><td>Зарубіжна література</td></tr>
+                <tr><td>Фізика</td></tr>
+                <tr><td>Алгебра</td></tr>
+                <tr><td>Всесвітня історія</td></tr>
+                <tr><td>Фізкультура</td></tr>
+                <tr><td>Інформатика (гр1)</td></tr>
+            </tbody>
+        </table>
+        <table class="day-table">
+            <thead>
+                <tr><th>Ср</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Історія України</td></tr>
+                <tr><td>Географія</td></tr>
+                <tr><td>Англійська мова (гр1)</td></tr>
+                <tr><td>Англійська мова (гр2)</td></tr>
+                <tr><td>Фізика</td></tr>
+                <tr><td>Українська література</td></tr>
+                <tr><td>Українська мова</td></tr>
+                <tr><td>Фізкультура</td></tr>
+            </tbody>
+        </table>
+        <table class="day-table">
+            <thead>
+                <tr><th>Чт</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Геометрія</td></tr>
+                <tr><td>Трудове навчання</td></tr>
+                <tr><td>Хімія</td></tr>
+                <tr><td>Правознавство</td></tr>
+                <tr><td>Геометрія</td></tr>
+                <tr><td>Мистецтво</td></tr>
+                <tr><td>Англійська мова (гр2)</td></tr>
+            </tbody>
+        </table>
+        <table class="day-table">
+            <thead>
+                <tr><th>Пт</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Біологія</td></tr>
+                <tr><td>Українська мова</td></tr>
+                <tr><td>Зарубіжна література</td></tr>
+                <tr><td>Основи здоров'я</td></tr>
+                <tr><td>Алгебра</td></tr>
+                <tr><td>Фізкультура</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <h2>Розклад дзвінків</h2>
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Час</th>
+                <th>Перерва</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>08:00-08:40</td><td>5 хв</td></tr>
+            <tr><td>2</td><td>08:45-09:25</td><td>10 хв</td></tr>
+            <tr><td>3</td><td>09:35-10:15</td><td>15 хв</td></tr>
+            <tr><td>4</td><td>10:30-11:10</td><td>5 хв</td></tr>
+            <tr><td>5</td><td>11:15-11:55</td><td>5 хв</td></tr>
+            <tr><td>6</td><td>12:00-12:40</td><td>5 хв</td></tr>
+            <tr><td>7</td><td>12:45-13:25</td><td>10 хв</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
